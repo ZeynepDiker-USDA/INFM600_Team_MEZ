@@ -1,7 +1,7 @@
 # Create data frame "obesity" from CSV file w/headers
 obesity <- read.csv("C:/Users/mgiezeman/Desktop/obesity.csv", header = T)
 
-#START DATA CLEANUP (rows 4-69)
+#START DATA CLEANUP (rows 4-65)
 
 #check if the columns YearStart and YearEnd are the same (find the difference)
 obesity$year_start_end_diff<-obesity$YearEnd - obesity$YearStart
